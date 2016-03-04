@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.013" errors="0" skipped="0" tests="1" name="cascading.test.AppTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/java/jdk1.6.0_31/jre/lib/amd64"/>
+    <property name="java.vm.version" value="20.6-b01"/>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.vendor.url" value="http://java.sun.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/local/szt29/eclipse/workspaces/default/test"/>
+    <property name="java.runtime.version" value="1.6.0_31-b04"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="basedir" value="/local/szt29/eclipse/workspaces/default/test"/>
+    <property name="java.endorsed.dirs" value="/usr/java/jdk1.6.0_31/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="/tmp/surefirebooter6264603954223579896.jar"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.jnu.encoding" value="ANSI_X3.4-1968"/>
+    <property name="java.library.path" value="/usr/java/jdk1.6.0_31/jre/lib/amd64/server:/usr/java/jdk1.6.0_31/jre/lib/amd64:/usr/java/jdk1.6.0_31/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="surefire.test.class.path" value="/local/szt29/eclipse/workspaces/default/test/target/test-classes:/local/szt29/eclipse/workspaces/default/test/target/classes:/local/szt29/maven/repository/org/apache/hadoop/hadoop-core/1.0.4/hadoop-core-1.0.4.jar:/local/szt29/maven/repository/commons-cli/commons-cli/1.2/commons-cli-1.2.jar:/local/szt29/maven/repository/xmlenc/xmlenc/0.52/xmlenc-0.52.jar:/local/szt29/maven/repository/commons-httpclient/commons-httpclient/3.0.1/commons-httpclient-3.0.1.jar:/local/szt29/maven/repository/junit/junit/3.8.1/junit-3.8.1.jar:/local/szt29/maven/repository/commons-logging/commons-logging/1.0.3/commons-logging-1.0.3.jar:/local/szt29/maven/repository/commons-codec/commons-codec/1.4/commons-codec-1.4.jar:/local/szt29/maven/repository/org/apache/commons/commons-math/2.1/commons-math-2.1.jar:/local/szt29/maven/repository/commons-configuration/commons-configuration/1.6/commons-configuration-1.6.jar:/local/szt29/maven/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/local/szt29/maven/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/local/szt29/maven/repository/commons-digester/commons-digester/1.8/commons-digester-1.8.jar:/local/szt29/maven/repository/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:/local/szt29/maven/repository/commons-beanutils/commons-beanutils-core/1.8.0/commons-beanutils-core-1.8.0.jar:/local/szt29/maven/repository/commons-net/commons-net/1.4.1/commons-net-1.4.1.jar:/local/szt29/maven/repository/oro/oro/2.0.8/oro-2.0.8.jar:/local/szt29/maven/repository/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.jar:/local/szt29/maven/repository/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar:/local/szt29/maven/repository/org/mortbay/jetty/servlet-api/2.5-20081211/servlet-api-2.5-20081211.jar:/local/szt29/maven/repository/tomcat/jasper-runtime/5.5.12/jasper-runtime-5.5.12.jar:/local/szt29/maven/repository/tomcat/jasper-compiler/5.5.12/jasper-compiler-5.5.12.jar:/local/szt29/maven/repository/org/mortbay/jetty/jsp-api-2.1/6.1.14/jsp-api-2.1-6.1.14.jar:/local/szt29/maven/repository/org/mortbay/jetty/servlet-api-2.5/6.1.14/servlet-api-2.5-6.1.14.jar:/local/szt29/maven/repository/org/mortbay/jetty/jsp-2.1/6.1.14/jsp-2.1-6.1.14.jar:/local/szt29/maven/repository/org/eclipse/jdt/core/3.1.1/core-3.1.1.jar:/local/szt29/maven/repository/ant/ant/1.6.5/ant-1.6.5.jar:/local/szt29/maven/repository/commons-el/commons-el/1.0/commons-el-1.0.jar:/local/szt29/maven/repository/net/java/dev/jets3t/jets3t/0.7.1/jets3t-0.7.1.jar:/local/szt29/maven/repository/net/sf/kosmosfs/kfs/0.3/kfs-0.3.jar:/local/szt29/maven/repository/hsqldb/hsqldb/1.8.0.10/hsqldb-1.8.0.10.jar:/local/szt29/maven/repository/org/codehaus/jackson/jackson-mapper-asl/1.0.1/jackson-mapper-asl-1.0.1.jar:/local/szt29/maven/repository/org/codehaus/jackson/jackson-core-asl/1.0.1/jackson-core-asl-1.0.1.jar:/local/szt29/maven/repository/cascading/cascading-core/2.5.2/cascading-core-2.5.2.jar:/local/szt29/maven/repository/riffle/riffle/0.1-dev/riffle-0.1-dev.jar:/local/szt29/maven/repository/thirdparty/jgrapht-jdk1.6/0.8.1/jgrapht-jdk1.6-0.8.1.jar:/local/szt29/maven/repository/org/codehaus/janino/janino/2.6.1/janino-2.6.1.jar:/local/szt29/maven/repository/org/codehaus/janino/commons-compiler/2.6.1/commons-compiler-2.6.1.jar:/local/szt29/maven/repository/cascading/cascading-local/2.5.2/cascading-local-2.5.2.jar:/local/szt29/maven/repository/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar:/local/szt29/maven/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar:/local/szt29/maven/repository/cascading/cascading-hadoop/2.5.2/cascading-hadoop-2.5.2.jar:/local/szt29/maven/repository/cascading/cascading-xml/2.5.2/cascading-xml-2.5.2.jar:/local/szt29/maven/repository/org/ccil/cowan/tagsoup/tagsoup/1.2/tagsoup-1.2.jar:/local/szt29/maven/repository/cascading/cascading-platform/2.5.2/cascading-platform-2.5.2.jar:"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="2.6.32-042stab079.6"/>
+    <property name="user.home" value="/home/szt29"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="ANSI_X3.4-1968"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="user.name" value="szt29"/>
+    <property name="java.class.path" value="/local/szt29/eclipse/workspaces/default/test/target/test-classes:/local/szt29/eclipse/workspaces/default/test/target/classes:/local/szt29/maven/repository/org/apache/hadoop/hadoop-core/1.0.4/hadoop-core-1.0.4.jar:/local/szt29/maven/repository/commons-cli/commons-cli/1.2/commons-cli-1.2.jar:/local/szt29/maven/repository/xmlenc/xmlenc/0.52/xmlenc-0.52.jar:/local/szt29/maven/repository/commons-httpclient/commons-httpclient/3.0.1/commons-httpclient-3.0.1.jar:/local/szt29/maven/repository/junit/junit/3.8.1/junit-3.8.1.jar:/local/szt29/maven/repository/commons-logging/commons-logging/1.0.3/commons-logging-1.0.3.jar:/local/szt29/maven/repository/commons-codec/commons-codec/1.4/commons-codec-1.4.jar:/local/szt29/maven/repository/org/apache/commons/commons-math/2.1/commons-math-2.1.jar:/local/szt29/maven/repository/commons-configuration/commons-configuration/1.6/commons-configuration-1.6.jar:/local/szt29/maven/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/local/szt29/maven/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/local/szt29/maven/repository/commons-digester/commons-digester/1.8/commons-digester-1.8.jar:/local/szt29/maven/repository/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:/local/szt29/maven/repository/commons-beanutils/commons-beanutils-core/1.8.0/commons-beanutils-core-1.8.0.jar:/local/szt29/maven/repository/commons-net/commons-net/1.4.1/commons-net-1.4.1.jar:/local/szt29/maven/repository/oro/oro/2.0.8/oro-2.0.8.jar:/local/szt29/maven/repository/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.jar:/local/szt29/maven/repository/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar:/local/szt29/maven/repository/org/mortbay/jetty/servlet-api/2.5-20081211/servlet-api-2.5-20081211.jar:/local/szt29/maven/repository/tomcat/jasper-runtime/5.5.12/jasper-runtime-5.5.12.jar:/local/szt29/maven/repository/tomcat/jasper-compiler/5.5.12/jasper-compiler-5.5.12.jar:/local/szt29/maven/repository/org/mortbay/jetty/jsp-api-2.1/6.1.14/jsp-api-2.1-6.1.14.jar:/local/szt29/maven/repository/org/mortbay/jetty/servlet-api-2.5/6.1.14/servlet-api-2.5-6.1.14.jar:/local/szt29/maven/repository/org/mortbay/jetty/jsp-2.1/6.1.14/jsp-2.1-6.1.14.jar:/local/szt29/maven/repository/org/eclipse/jdt/core/3.1.1/core-3.1.1.jar:/local/szt29/maven/repository/ant/ant/1.6.5/ant-1.6.5.jar:/local/szt29/maven/repository/commons-el/commons-el/1.0/commons-el-1.0.jar:/local/szt29/maven/repository/net/java/dev/jets3t/jets3t/0.7.1/jets3t-0.7.1.jar:/local/szt29/maven/repository/net/sf/kosmosfs/kfs/0.3/kfs-0.3.jar:/local/szt29/maven/repository/hsqldb/hsqldb/1.8.0.10/hsqldb-1.8.0.10.jar:/local/szt29/maven/repository/org/codehaus/jackson/jackson-mapper-asl/1.0.1/jackson-mapper-asl-1.0.1.jar:/local/szt29/maven/repository/org/codehaus/jackson/jackson-core-asl/1.0.1/jackson-core-asl-1.0.1.jar:/local/szt29/maven/repository/cascading/cascading-core/2.5.2/cascading-core-2.5.2.jar:/local/szt29/maven/repository/riffle/riffle/0.1-dev/riffle-0.1-dev.jar:/local/szt29/maven/repository/thirdparty/jgrapht-jdk1.6/0.8.1/jgrapht-jdk1.6-0.8.1.jar:/local/szt29/maven/repository/org/codehaus/janino/janino/2.6.1/janino-2.6.1.jar:/local/szt29/maven/repository/org/codehaus/janino/commons-compiler/2.6.1/commons-compiler-2.6.1.jar:/local/szt29/maven/repository/cascading/cascading-local/2.5.2/cascading-local-2.5.2.jar:/local/szt29/maven/repository/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar:/local/szt29/maven/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar:/local/szt29/maven/repository/cascading/cascading-hadoop/2.5.2/cascading-hadoop-2.5.2.jar:/local/szt29/maven/repository/cascading/cascading-xml/2.5.2/cascading-xml-2.5.2.jar:/local/szt29/maven/repository/org/ccil/cowan/tagsoup/tagsoup/1.2/tagsoup-1.2.jar:/local/szt29/maven/repository/cascading/cascading-platform/2.5.2/cascading-platform-2.5.2.jar:"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/java/jdk1.6.0_31/jre"/>
+    <property name="sun.java.command" value="/tmp/surefirebooter6264603954223579896.jar /tmp/surefire3517507567071566766tmp /tmp/surefire892909556277833301tmp"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="en"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.6.0_31"/>
+    <property name="java.ext.dirs" value="/usr/java/jdk1.6.0_31/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.boot.class.path" value="/usr/java/jdk1.6.0_31/jre/lib/resources.jar:/usr/java/jdk1.6.0_31/jre/lib/rt.jar:/usr/java/jdk1.6.0_31/jre/lib/sunrsasign.jar:/usr/java/jdk1.6.0_31/jre/lib/jsse.jar:/usr/java/jdk1.6.0_31/jre/lib/jce.jar:/usr/java/jdk1.6.0_31/jre/lib/charsets.jar:/usr/java/jdk1.6.0_31/jre/lib/modules/jdk.boot.jar:/usr/java/jdk1.6.0_31/jre/classes"/>
+    <property name="java.vendor" value="Sun Microsystems Inc."/>
+    <property name="localRepository" value="/local/szt29/maven/repository"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase time="0.001" classname="cascading.test.AppTest" name="testApp"/>
+</testsuite>
